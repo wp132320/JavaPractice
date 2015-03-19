@@ -10,6 +10,8 @@ public class Operator {
 		System.out.println("<< 도형 넓이 비교 >>");
 		System.out.println("사다리꼴 넓이 : " + trapezoid);
 		System.out.println("평행사변형 넓이 : " + parallelogram);
+		System.out.println();
+		System.out.println();
 		if(trapezoid > parallelogram)
 			System.out.println("사다리꼴이 평행사변형 보다 " + (trapezoid - parallelogram) + " 더 큽니다.");
 		else if(trapezoid == parallelogram)

@@ -33,6 +33,7 @@ public class IdolGroup {
 			System.out.println("<< "+group+" 멤버 >>");
 			for(String member : members[i++])
 				System.out.println(member);
+			System.out.println();
 		}
 	}
 

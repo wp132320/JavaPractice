@@ -28,22 +28,11 @@ public class IdolGroup {
 				{"CL", "산다라박", "박봄", "민지"},
 				{"유리", "소진", "민아", "해리", "그외"}
 		};
+		int i=0;
 		for(String group : idolGroup) {
 			System.out.println("<< "+group+" 멤버 >>");
-			switch(group) {
-			case "빅뱅":
-				for(String member : members[0])
-					System.out.println(member);
-				break;
-			case "2NE1":
-				for(String member : members[1])
-					System.out.println(member);
-				break;
-			case "걸스데이":
-				for(String member : members[2])
-					System.out.println(member);
-				break;
-			}
+			for(String member : members[i++])
+				System.out.println(member);
 		}
 	}
 

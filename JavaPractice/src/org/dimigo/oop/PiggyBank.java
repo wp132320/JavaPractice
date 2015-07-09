@@ -27,7 +27,7 @@ public class PiggyBank {
 			balance -= amount;
 		}
 		else {
-			System.out.println("훔치기 실패!! 잔고가 부족합니다.(현재 잔고 : "+balance+")");
+			System.out.println("훔치기 실패! 잔고가 부족합니다.(현재 잔고 : "+balance+")");
 		}
 	}
 	public static void printBalance() {

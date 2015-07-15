@@ -12,7 +12,7 @@ package org.dimigo.oop;
  * 2. 작성일 : 2015. 4. 14.
  * </pre>
  *
- * @author	: 오준용
+ * @author	: 오준용111
  * @version 	: 1.0
  */
 public class Car {
